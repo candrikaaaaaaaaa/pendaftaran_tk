@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Taman kanak kanak</title>
+<title>Taman Kanak Kanak</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Learn Kids Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -17,6 +17,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href="{{ asset('assets/frontend/logistico/logistico/css/bootstrap.css')}}" type="text/css" rel="stylesheet" media="all">
 <link href="{{ asset('assets/frontend/logistico/logistico/css/style.css')}}" type="text/css" rel="stylesheet" media="all">
 <link href="{{ asset('assets/frontend/logistico/logistico/css/font-awesome.css')}}" rel="stylesheet"> <!-- font-awesome icons -->
+<link rel="stylesheet" href="{{ asset('assets/frontend/logistico/logistico/css/lightbox.css')}}">
 <!-- //Custom Theme files -->
 <!-- js -->
 <script src="{{ asset('assets/frontend/logistico/logistico/js/jquery-2.2.3.min.js')}}"></script>
@@ -43,7 +44,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //header -->
 	<!-- banner -->
-	<div class="agileits-banner">
+	<div class="agileits-banner about-w3lsbnr">
 		<div class="bnr-agileinfo">
 			<!-- navigation -->
 			<div class="top-nav w3-agiletop">
@@ -55,7 +56,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a href="./index">Al Ikhlas</a></h1>
+						<h1><a href="index.html">Al Ikhlas</a></h1>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -81,128 +82,89 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!-- //navigation -->
 			<div class="banner-w3text w3layouts">
 				<div class="container">
-                    <h2>Selamat Datang</h2>
-                    <p>di taman kanak kanak
-                        Al Ikhlas
-                    </p>
-					<div class="w3lsmore">
-						<a class="w3-agilebtn" href="about.html"><span>More About</span></a>
-					</div>
+					<h2>LEARN KIDS</h2>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- //banner -->
-	<!-- about -->
-	<div class="about">
+	<!-- gallery -->
+	<div class="gallery">
 		<div class="container">
-			<div class="about-agileinfo">
-				<h3 class="w3ls-title">Welcome</h3>
-				<p>TAMAN KANAK-KANAK dimana KB TK AL IKHLAS sungguh riang gembira. Taman kanak-kanak adalah taman yang paling indah tepat untuk bermain dan bergembira bersama teman-teman. Berkenalan dengan teman baru, bertemu kembali dengan teman-teman dan ibu bapak guru.</p>
-				<br>
-				<p>Selamat datang tahun ajaran baru dan semangat di hari pertama masuk sekolah. Horeee… Hari senin tanggal 16 juli 2018 adalah hari pertama ananda KB/ TK ISLAM AL-IKHLAS kembali bersekolah. Selamat kembali ke sekolah ya anak-anak yang hebat dan selamat bergabung di keluarga besar KB TK Islam AL IKHLAS. Are you ready dears?  Yes………. Semangat…</p>
+			<h3 class="w3ls-title">Our Gallery</h3>
+			<div class="gallery-grids-top">
+				<div class="gallery-grids">
+					<div class="col-md-4 col-sm-4 col-xs-6 gallery-grid-img">
+						<a class="example-image-link w3-agilepic" href="{{ asset('assets/frontend/logistico/logistico/images/s1.jpg')}}" data-lightbox="example-set" data-title="">
+							<img class="example-image img-responsive" src="{{ asset('assets/frontend/logistico/logistico/images/s1.jpg')}}" alt=""/>
+							<div class="w3ls-overlay">
+								<h4>Our Gallery</h4>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 gallery-grid-img hover ehover14">
+						<a class="example-image-link w3-agilepic" href="{{ asset('assets/frontend/logistico/logistico/images/s2.jpg')}}" data-lightbox="example-set" data-title="">
+							<img class="example-image img-responsive" src="{{ asset('assets/frontend/logistico/logistico/images/s2.jpg')}}" alt=""/>
+							<div class="w3ls-overlay">
+								<h4>Our Gallery</h4>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 gallery-grid-img hover ehover14">
+						<a class="example-image-link w3-agilepic" href="{{ asset('assets/frontend/logistico/logistico/images/s3.jpg')}}" data-lightbox="example-set" data-title="">
+							<img class="example-image img-responsive" src="{{ asset('assets/frontend/logistico/logistico/images/s3.jpg')}}" alt=""/>
+							<div class="w3ls-overlay">
+								<h4>Our Gallery</h4>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6 gallery-grid-img gallery-mdl hover ehover14">
+						<a class="example-image-link w3-agilepic" href="{{ asset('assets/frontend/logistico/logistico/images/img5.jpg')}}" data-lightbox="example-set" data-title="">
+							<img class="example-image img-responsive" src="{{ asset('assets/frontend/logistico/logistico/images/img5.jpg')}}" alt=""/>
+							<div class="w3ls-overlay">
+								<h4>Our Gallery</h4>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6 gallery-grid-img gallery-mdl hover ehover14">
+						<a class="example-image-link w3-agilepic" href="{{ asset('assets/frontend/logistico/logistico/images/img1.jpg')}}" data-lightbox="example-set" data-title="">
+							<img class="example-image img-responsive" src="{{ asset('assets/frontend/logistico/logistico/images/img1.jpg')}}" alt=""/>
+							<div class="w3ls-overlay">
+								<h4>Our Gallery</h4>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 gallery-grid-img hover ehover14">
+						<a class="example-image-link w3-agilepic" href="{{ asset('assets/frontend/logistico/logistico/images/img3.jpg')}}" data-lightbox="example-set" data-title="">
+						<img class="example-image img-responsive" src="{{ asset('assets/frontend/logistico/logistico/images/img3.jpg')}}" alt=""/>
+							<div class="w3ls-overlay">
+								<h4>Our Gallery</h4>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 gallery-grid-img hover ehover14">
+						<a class="example-image-link w3-agilepic" href="{{ asset('assets/frontend/logistico/logistico/images/img4.jpg')}}" data-lightbox="example-set" data-title="">
+							<img class="example-image img-responsive" src="{{ asset('assets/frontend/logistico/logistico/images/img4.jpg')}}" alt=""/>
+							<div class="w3ls-overlay">
+								<h4>Our Gallery</h4>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 gallery-grid-img hover ehover14">
+						<a class="example-image-link w3-agilepic" href="{{ asset('assets/frontend/logistico/logistico/images/s4.jpg')}}" data-lightbox="example-set" data-title="">
+							<img class="example-image img-responsive" src="{{ asset('assets/frontend/logistico/logistico/images/s4.jpg')}}" alt=""/>
+							<div class="w3ls-overlay">
+								<h4>Our Gallery</h4>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+					<script src="js/lightbox-plus-jquery.min.js"></script>
+				</div>
 			</div>
 		</div>
 	</div>
-	<!-- //about -->
-	<!-- welcome -->
-	<div class="welcome agileits">
-		{{-- <div class="col-md-8 col-sm-8 w3welcome-img"> --}}
-
-		</div>
-		<div class="col-md-15 col-sm-15 w3welcome-right">
-			<div class="w3welcome-text">
-				{{-- <h5 class="w3l-subtitle">- Our Mission</h5> --}}
-				<p>Mari kita membawa anak-anak ke sekolah dan memberikan kesan positif kepada mereka pada hari pertama sekolah mereka.</p>
-			</div>
-			<img src="{{ asset('assets/frontend/logistico/logistico/images/i1.jpg')}}" class="img-responsive" alt=""/>
-		</div>
-		<div class="clearfix"> </div>
-	</div>
-	<!-- //welcome -->
-	<!-- services -->
-	{{-- <div class="services">
-		<div class="container">
-			<h3 class="w3ls-title">Our Services</h3>
-			<div class="services-agileinfo">
-				<div class="col-md-3 col-sm-3 col-xs-6 services-w3lsgrids">
-					<div class="services-w3text">
-						<i class="fa fa-cutlery" aria-hidden="true"></i>
-						<h5>Feeding</h5>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 services-w3lsgrids">
-					<div class="services-w3text srvs-w3text2">
-						<i class="fa fa-map" aria-hidden="true"></i>
-						<h5>Playing</h5>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 services-w3lsgrids">
-					<div class="services-w3text srvs-w3text3">
-						<i class="fa fa-credit-card" aria-hidden="true"></i>
-						<h5>Caring</h5>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 services-w3lsgrids">
-					<div class="services-w3text srvs-w3text4">
-						<i class="fa fa-truck" aria-hidden="true"></i>
-						<h5>Learning</h5>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div> --}}
-	<!-- //services -->
-	<!-- news -->
-	{{-- <div class="services news">
-		<div class="container">
-			<h3 class="w3ls-title">News & Events</h3>
-			<div class="news-agileinfo">
-				<div class="col-sm-4 news-w3lgrids">
-					<div class="news-gridtext">
-						<div class="news-w3img">
-							<a href="single.html"><img src="{{ asset('assets/frontend/logistico/logistico/images/img3.jpg')}}" class="img-responsive zoom-img" alt=""/></a>
-						</div>
-						<div class="news-w3imgtext">
-							<h5 class="w3-agilep">Nov 12, 2016 </h5>
-							<h4><a href="single.html">Fringilla</a></h4>
-							<p>In dignissim nunc curabitur eleifend orci eu sapien imperdiet tempus.</p>
-							<a class="w3-agilebtn" href="single.html"><span>Read More</span></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 news-w3lgrids">
-					<div class="news-gridtext">
-						<div class="news-w3img">
-							<a href="single.html"><img src="{{ asset('assets/frontend/logistico/logistico/images/img4.jpg')}}" class="img-responsive zoom-img" alt=""/></a>
-						</div>
-						<div class="news-w3imgtext">
-							<h5 class="w3-agilep">Nov 4, 2016</h5>
-							<h4><a href="single.html">Cfringilla</a></h4>
-							<p>Curabitur eleifend orci eu sapien imperdiet tempus dignissim nunc.</p>
-							<a class="w3-agilebtn" href="single.html"><span>Read More</span></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 news-w3lgrids">
-					<div class="news-gridtext">
-						<div class="news-w3img">
-							<a href="single.html"><img src="{{ asset('assets/frontend/logistico/logistico/images/img5.jpg')}}" class="img-responsive zoom-img" alt=""/></a>
-						</div>
-						<div class="news-w3imgtext">
-							<h5 class="w3-agilep">Sept 21, 2016</h5>
-							<h4><a href="single.html">Sectetur</a></h4>
-							<p>Morbi a vehicula risus, vitae interdum orci Praesent acelei turpis.</p>
-							<a class="w3-agilebtn" href="single.html"><span>Read More</span></a>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div> --}}
-	<!-- //news -->
+	<!-- //gallery -->
 	<!-- features -->
 	<div class="features about">
 		<div class="container">
@@ -213,7 +175,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<div class="col-xs-9 features-w3lright">
 						<h4>CONTACT</h4>
-						<p>+62 895 344 583308</p>
+						<p>+01 111 222 3333</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -223,7 +185,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<div class="col-xs-9 features-w3lright">
 						<h4>LOCATION</h4>
-						<p>Jln Rancamanyar, Bandung</p>
+						<p>Broome St, New York, NY 10002</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -233,7 +195,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<div class="col-xs-9 features-w3lright">
 						<h4>EMAIL</h4>
-						<p><a href="mailto:info@example.com"> candrikadwi152@gmail.com</a></p>
+						<p><a href="mailto:info@example.com"> mail@example.com</a></p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -295,7 +257,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<div class="modal-body modal-spa">
-					<img src="{{ asset('assets/frontend/logistico/logistico/images/img2.jpg')}}" class="img-responsive" alt=""/>
+					<img src="{{ asset('assets/logistico/logistico/images/img2.jpg')}}" class="img-responsive" alt=""/>
 					<h4>Cras rutrum iaculis enim</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius miet congue consectetur adipiscing. <br>Uisque molestie cursus miet congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate in. Fusce lacus purus, pulvinar ut lacinia id, sagittis eu mi. Vestibulum eleifend massa sem, eget dapibus turpis efficitur at. </p>
 				</div>
@@ -304,10 +266,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //modal-about -->
 	<!-- start-smooth-scrolling -->
-	<script src="{{ asset('assets/frontend/logistico/logistico/js/SmoothScroll.min.js')}}"></script>
-	<script type="text/javascript" src="{{ asset('assets/frontend/logistico/logistico/js/move-top.js')}}"></script>
-	<script type="text/javascript" src="{{ asset('assets/frontend/logistico/logistico/js/easing.js')}}"></script>
-	<script type="text/javascript">
+	<script src="{{ asset('assets/logistico/logistico/js/SmoothScroll.min.js')}}"></script>
+	<script type="{{ asset('assets/logistico/logistico/text/javascript')}}" src="js/move-top.js"></script>
+	<script type="{{ asset('assets/logistico/logistico/text/javascript')}}" src="js/easing.js"></script>
+	<script type="{{ asset('assets/logistico/logistico/text/javascript')}}">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){
 					event.preventDefault();
@@ -318,7 +280,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 	<!-- //end-smooth-scrolling -->
 	<!-- smooth-scrolling-of-move-up -->
-	<script type="text/javascript">
+	<script type="{{ asset('assets/logistico/logistico/text/javascript')}}">
 		$(document).ready(function() {
 			/*
 			var defaults = {
@@ -337,6 +299,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{ asset('assets/frontend/logistico/logistico/js/bootstrap.js')}}"></script>
+    <script src="{{ asset('assets/logistico/logistico/js/bootstrap.js')}}"></script>
 </body>
 </html>

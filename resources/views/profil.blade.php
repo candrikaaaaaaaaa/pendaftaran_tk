@@ -1,13 +1,7 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Taman kanak kanak</title>
+<title>Taman Kanak Kanak</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Learn Kids Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -19,7 +13,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href="{{ asset('assets/frontend/logistico/logistico/css/font-awesome.css')}}" rel="stylesheet"> <!-- font-awesome icons -->
 <!-- //Custom Theme files -->
 <!-- js -->
-<script src="{{ asset('assets/frontend/logistico/logistico/js/jquery-2.2.3.min.js')}}"></script>
+<script src="js/jquery-2.2.3.min.js"></script>
 <!-- //js -->
 <!-- web-fonts -->
 <link href="{{ asset('assets/frontend/logistico/logistico///fonts.googleapis.com/css?family=Limelight')}}" rel="stylesheet">
@@ -43,7 +37,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //header -->
 	<!-- banner -->
-	<div class="agileits-banner">
+	<div class="agileits-banner about-w3lsbnr">
 		<div class="bnr-agileinfo">
 			<!-- navigation -->
 			<div class="top-nav w3-agiletop">
@@ -55,7 +49,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a href="./index">Al Ikhlas</a></h1>
+						<h1><a href="index.blade.php">Al Ikhlas</a></h1>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -81,13 +75,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!-- //navigation -->
 			<div class="banner-w3text w3layouts">
 				<div class="container">
-                    <h2>Selamat Datang</h2>
-                    <p>di taman kanak kanak
-                        Al Ikhlas
-                    </p>
-					<div class="w3lsmore">
-						<a class="w3-agilebtn" href="about.html"><span>More About</span></a>
-					</div>
+					<h2>Al Ikhlas</h2>
 				</div>
 			</div>
 		</div>
@@ -96,113 +84,159 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- about -->
 	<div class="about">
 		<div class="container">
-			<div class="about-agileinfo">
-				<h3 class="w3ls-title">Welcome</h3>
-				<p>TAMAN KANAK-KANAK dimana KB TK AL IKHLAS sungguh riang gembira. Taman kanak-kanak adalah taman yang paling indah tepat untuk bermain dan bergembira bersama teman-teman. Berkenalan dengan teman baru, bertemu kembali dengan teman-teman dan ibu bapak guru.</p>
-				<br>
-				<p>Selamat datang tahun ajaran baru dan semangat di hari pertama masuk sekolah. Horeee… Hari senin tanggal 16 juli 2018 adalah hari pertama ananda KB/ TK ISLAM AL-IKHLAS kembali bersekolah. Selamat kembali ke sekolah ya anak-anak yang hebat dan selamat bergabung di keluarga besar KB TK Islam AL IKHLAS. Are you ready dears?  Yes………. Semangat…</p>
+			<h3 class="w3ls-title">Profil</h3>
+			<div class="about-w3ls-row">
+				<div class="col-md-5 about-left">
+					<img src="{{ asset('assets/frontend/logistico/logistico/images/profil.jpg')}}" class="img-responsive" alt=""/>
+				</div>
+				<div class="col-md-7 about-right">
+					<div class="about-agile-row">
+						<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+							<ul id="myTab" class=" nav-tabs" role="tablist">
+                                <h4>Profil KB/TK Islam Al Ikhlas</h4>
+								{{-- <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">About</a></li>
+								<li role="presentation"><a href="#carl" role="tab" id="carl-tab" data-toggle="tab" aria-controls="carl"> History</a></li> --}}
+							</ul>
+							<div class="clearfix"> </div>
+							<div id="myTabContent" class="tab-content">
+								<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+									<div class="tabcontent-grids">
+										<p>Kelompok bermain dan Taman Kanak-Kanak Islam Al Ikhlas  berada dibawah naungan Yayasan Masjid Al Ikhlas,
+                                            Cilebak , berdiri sejak  Tanggal 03 September tahun 1979.
+                                            Sejak berdiri hingga kini KB/TK Islam Al Ikhlas tetap konsisten membina dan mengembangkan
+                                            potensi para siswanya secara optimal dalam bingkai nilai–nilai Islami dengan konsep
+                                            pendidikan ‘multiple intelegent’ yang mengedepankan keceriaan dalam belajar (Playing Learning)
+                                            dengan metode Children Research Internasional (CRI),
+                                            sesuai dengan visi KB/TK Islam Al Ikhlas yaitu : Menjadi sekolah islam yang menghasilkan siswa siswi
+                                            berakhlakul kharimah., berjiwa pemimpin dan cerdas serta mampu menghadapi tantangan perubahan zaman.</p>
+                                        <br>
+                                        <p>Aneka prestasi yang telah diraih oleh KB/TK Islam Al Ikhlas dalam berbagai kegiatan siswa,
+                                            baik yang berkaitan dengan akademik, maupun non akademik.
+                                            Diantaranya adalah kejuaraan Marching Kids tingkat Nasional,
+                                            lomba–lomba antar sekolah tingkat Kota kabupaten dan wilayah Bandung dan
+                                            lomba sekolah sehat tingkat propinsi.Tahun demi tahun sarana dan prasarana
+                                            serta kurikulum program pendidikan KB/TK Islam Al Ikhlas semakin dikembangkan
+                                            dan dilengkapi sehingga menjadi salah satu sekolah islam terbaik.</p>
+										{{-- <ul>
+											<li><i class="fa fa-check-square-o"></i> Sed tincidunt lorem sed </li>
+											<li><i class="fa fa-check-square-o"></i> Excepteur sint occaecat </li>
+											<li><i class="fa fa-check-square-o"></i> Duis aute irure dolor in </li>
+											<li><i class="fa fa-check-square-o"></i> Sed tincidunt lorem sed </li> --}}
+										</ul>
+									</div>
+								</div>
+								{{-- <div role="tabpanel" class="tab-pane fade" id="carl" aria-labelledby="carl-tab">
+									<div class="tabcontent-grids">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis.Excepteur sint occaecat
+											cupidatat non proident, sunt in culpa qui officia deserunt mollit, Excepteur sint occaecat
+											cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+											anim id est laborum. Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget. Nulla ornare purus nunc, ut dapibus leo sodales adipiscing. Praesent sit amet justo diam. Quisque sagittis egestas sem vitae vestibulum. Quisque nec lacus ornare, volutpat arcu in, lacinia dolor.</p>
+									</div>
+								</div> --}}
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
 	<!-- //about -->
-	<!-- welcome -->
-	<div class="welcome agileits">
-		{{-- <div class="col-md-8 col-sm-8 w3welcome-img"> --}}
-
-		</div>
-		<div class="col-md-15 col-sm-15 w3welcome-right">
-			<div class="w3welcome-text">
-				{{-- <h5 class="w3l-subtitle">- Our Mission</h5> --}}
-				<p>Mari kita membawa anak-anak ke sekolah dan memberikan kesan positif kepada mereka pada hari pertama sekolah mereka.</p>
-			</div>
-			<img src="{{ asset('assets/frontend/logistico/logistico/images/i1.jpg')}}" class="img-responsive" alt=""/>
-		</div>
-		<div class="clearfix"> </div>
-	</div>
-	<!-- //welcome -->
 	<!-- services -->
-	{{-- <div class="services">
+	{{-- <div class="news agileits-bar">
 		<div class="container">
-			<h3 class="w3ls-title">Our Services</h3>
-			<div class="services-agileinfo">
-				<div class="col-md-3 col-sm-3 col-xs-6 services-w3lsgrids">
-					<div class="services-w3text">
-						<i class="fa fa-cutlery" aria-hidden="true"></i>
-						<h5>Feeding</h5>
-					</div>
+			<h3 class="w3ls-title">My Statistics</h3>
+			<div class="services-w3ls-row">
+				<div class="bar_group">
+					<div class='bar_group__bar thin' label='Lorem ipsum &nbsp;&nbsp; 80%' value='200'></div>
+					<div class='bar_group__bar thin' label='Quis nostrud &nbsp;&nbsp; 100%' value='250'></div>
+					<div class='bar_group__bar thin' label='Sed do eiusmod &nbsp;&nbsp; 72%' value='180'></div>
+					<div class='bar_group__bar thin' label='Ut enim adnim &nbsp;&nbsp; 88%' value='220'></div>
 				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 services-w3lsgrids">
-					<div class="services-w3text srvs-w3text2">
-						<i class="fa fa-map" aria-hidden="true"></i>
-						<h5>Playing</h5>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 services-w3lsgrids">
-					<div class="services-w3text srvs-w3text3">
-						<i class="fa fa-credit-card" aria-hidden="true"></i>
-						<h5>Caring</h5>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 services-w3lsgrids">
-					<div class="services-w3text srvs-w3text4">
-						<i class="fa fa-truck" aria-hidden="true"></i>
-						<h5>Learning</h5>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
+				<!-- bar-js -->
+				<script src="{{ asset('assets/frontend/logistico/logistico/js/bars.js')}}"></script>
+				<!-- //bar-js -->
 			</div>
 		</div>
 	</div> --}}
 	<!-- //services -->
-	<!-- news -->
-	{{-- <div class="services news">
-		<div class="container">
-			<h3 class="w3ls-title">News & Events</h3>
-			<div class="news-agileinfo">
-				<div class="col-sm-4 news-w3lgrids">
-					<div class="news-gridtext">
-						<div class="news-w3img">
-							<a href="single.html"><img src="{{ asset('assets/frontend/logistico/logistico/images/img3.jpg')}}" class="img-responsive zoom-img" alt=""/></a>
-						</div>
-						<div class="news-w3imgtext">
-							<h5 class="w3-agilep">Nov 12, 2016 </h5>
-							<h4><a href="single.html">Fringilla</a></h4>
-							<p>In dignissim nunc curabitur eleifend orci eu sapien imperdiet tempus.</p>
-							<a class="w3-agilebtn" href="single.html"><span>Read More</span></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 news-w3lgrids">
-					<div class="news-gridtext">
-						<div class="news-w3img">
-							<a href="single.html"><img src="{{ asset('assets/frontend/logistico/logistico/images/img4.jpg')}}" class="img-responsive zoom-img" alt=""/></a>
-						</div>
-						<div class="news-w3imgtext">
-							<h5 class="w3-agilep">Nov 4, 2016</h5>
-							<h4><a href="single.html">Cfringilla</a></h4>
-							<p>Curabitur eleifend orci eu sapien imperdiet tempus dignissim nunc.</p>
-							<a class="w3-agilebtn" href="single.html"><span>Read More</span></a>
+	<!-- team -->
+	{{-- <div class="team agileits">
+		<div class="team-info">
+			<div class="container">
+				<h3 class="w3ls-title">Our Team</h3>
+				<div class="team-row">
+					<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
+						<div class="team-agile-img">
+							<a href="#"><img src="images/t1.jpg" alt="img"></a>
+							<div class="view-caption">
+								<div class="w3ls-info">
+									<h4>Smith</h4>
+									<p>Chairman</p>
+								</div>
+								<ul>
+									<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+									<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+									<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-4 news-w3lgrids">
-					<div class="news-gridtext">
-						<div class="news-w3img">
-							<a href="single.html"><img src="{{ asset('assets/frontend/logistico/logistico/images/img5.jpg')}}" class="img-responsive zoom-img" alt=""/></a>
-						</div>
-						<div class="news-w3imgtext">
-							<h5 class="w3-agilep">Sept 21, 2016</h5>
-							<h4><a href="single.html">Sectetur</a></h4>
-							<p>Morbi a vehicula risus, vitae interdum orci Praesent acelei turpis.</p>
-							<a class="w3-agilebtn" href="single.html"><span>Read More</span></a>
+					<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
+						<div class="team-agile-img">
+							<a href="#"><img src="images/t2.jpg" alt="img"></a>
+							<div class="view-caption">
+								<div class="w3ls-info">
+									<h4>Michael</h4>
+									<p>Staff</p>
+								</div>
+								<ul>
+									<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+									<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+									<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
+						<div class="team-agile-img">
+							<a href="#"><img src="images/t3.jpg" alt="img"></a>
+							<div class="view-caption">
+								<div class="w3ls-info">
+									<h4>Sophia </h4>
+									<p>Staff</p>
+								</div>
+								<ul>
+									<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+									<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+									<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
+						<div class="team-agile-img">
+							<a href="#"><img src="images/t4.jpg" alt="img"></a>
+							<div class="view-caption">
+								<div class="w3ls-info">
+									<h4>Laura</h4>
+									<p>Staff</p>
+								</div>
+								<ul>
+									<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+									<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+									<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
 				</div>
-				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div> --}}
-	<!-- //news -->
+	<!-- //team -->
 	<!-- features -->
 	<div class="features about">
 		<div class="container">
@@ -295,7 +329,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<div class="modal-body modal-spa">
-					<img src="{{ asset('assets/frontend/logistico/logistico/images/img2.jpg')}}" class="img-responsive" alt=""/>
+					<img src="images/img2.jpg" class="img-responsive" alt=""/>
 					<h4>Cras rutrum iaculis enim</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius miet congue consectetur adipiscing. <br>Uisque molestie cursus miet congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate in. Fusce lacus purus, pulvinar ut lacinia id, sagittis eu mi. Vestibulum eleifend massa sem, eget dapibus turpis efficitur at. </p>
 				</div>
@@ -304,9 +338,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //modal-about -->
 	<!-- start-smooth-scrolling -->
-	<script src="{{ asset('assets/frontend/logistico/logistico/js/SmoothScroll.min.js')}}"></script>
-	<script type="text/javascript" src="{{ asset('assets/frontend/logistico/logistico/js/move-top.js')}}"></script>
-	<script type="text/javascript" src="{{ asset('assets/frontend/logistico/logistico/js/easing.js')}}"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
 	<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){
@@ -337,6 +371,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{ asset('assets/frontend/logistico/logistico/js/bootstrap.js')}}"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>

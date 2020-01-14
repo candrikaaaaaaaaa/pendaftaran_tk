@@ -23,6 +23,14 @@ Route::get('/admin', function () {
     return view('admin');
 });
 
+Route::get('/profil', function () {
+    return view('profil');
+});
+
+Route::get('/galeri', function () {
+    return view('galeri');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
