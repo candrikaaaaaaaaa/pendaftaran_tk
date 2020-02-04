@@ -64,7 +64,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<li><a href="./index" class="active">Home</a></li>
 								<li><a href="./profil">Profil</a></li>
                                 <li><a href="./galeri">Gallery</a></li>
-                                <li><a href="./pendaftaran">Pendaftaran</a></li>
+                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc5aD1N9YymVaZb5LOCapXC64MUiwr3tYspxMWMsaqrdKXPGA/viewform?usp=sf_link">Pendaftaran</a></li>
 								{{-- <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span data-letters="Pages">Pages</span><span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li><a href="icons.html">Web Icons</a></li>
