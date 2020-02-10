@@ -101,13 +101,13 @@ SmartKids...Your Kids Buddy</h1><span class="clear spacer_responsive_hide_mobile
 		<span class="icons c1"><img src="http://tkistiqamah.com/wp-content/uploads/bfi_thumb/icon_horse_retina-315mclrz17j8mjveg011xc.png" alt=""></i></span> <div class="box-area">
 		<h3>Tempat Bermain</h3> <p>Permainan yang baik yang akan meningkatkan kreatifitas anak dalam hal positif</p></div>
 		</div>
-		<div class="col-md-3 text-center">
-		<span class="icons c2"><i class="fa fa-picture-o"></i></span> <div class="box-area">
-		<h3>UI Design</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
+		<div class="col-md-4 text-center">
+		<span class="icons c2"><img src="http://tkistiqamah.com/wp-content/uploads/bfi_thumb/icon_abc_retina-315mclixcmgv2gdno9nqps.png" alt=""></i></span> <div class="box-area">
+		<h3>Pendidikan</h3> <p>Pendidikan dalam ber-akhlah baik harus ditingkatkan untuk menciptakan generasi masa depan yang baik.</p></div>
 		</div>
-		<div class="col-md-3 text-center">
-		<span class="icons c3"><i class="fa fa-desktop"></i></span> <div class="box-area">
-		<h3>Interaction</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
+		<div class="col-md-4 text-center">
+		<span class="icons c3"><img src="http://tkistiqamah.com/wp-content/uploads/bfi_thumb/icon_snake_retina-315mcm10pslm6nd57qed4w.png" alt=""></i></span> <div class="box-area">
+		<h3>Permainan</h3> <p>Permainan yang baik adalah suatu hal yang mampu meningkatkan kreatifitas anak lebih baik lagi.</p></div>
 		</div>
 		{{-- <div class="col-md-3 text-center">
 		<span class="icons c4"><i class="fa fa-globe"></i></span> <div class="box-area">
@@ -135,12 +135,12 @@ SmartKids...Your Kids Buddy</h1><span class="clear spacer_responsive_hide_mobile
                     <li data-target="#carousel-example-generic" data-slide-to="1" class="">
                         <a href="#"></a>
                     </li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
+                    {{-- <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
                         <a href="#"></a>
                     </li>
                     <li data-target="#carousel-example-generic" data-slide-to="3" class="">
                         <a href="#"></a>
-                    </li>
+                    </li> --}}
                 </ol>
                 <div class="carousel-inner">
                     <div class="item">
@@ -177,42 +177,47 @@ SmartKids...Your Kids Buddy</h1><span class="clear spacer_responsive_hide_mobile
 
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="aligncenter"><h2 class="aligncenter">Courses We Offer</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa architecto non, magni consequuntur quam.</div>
+				<div class="aligncenter"><h2 class="aligncenter">Visi</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span></div>
 			</div>
 		</div>
 <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-20">
 			<div class="textbox clour1">
-                <h3>Heading Course</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vest sit amet, consec ibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
-            </div> </div>
+                <h3><center>“ Mencetak  generasi yang berkualitas dan religius melalui kegiatan bermain sambil belajar ”</center></h3>
+				{{-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vest sit amet, consec ibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p> --}}
+			</div> </div>
+			<div class="row">
+			<div class="col-lg-12">
+				<div class="aligncenter"><h2 class="aligncenter">Misi</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span></div>
+			</div>
+		</div>
             <div class="col-md-4">
 			<div class="textbox clour2">
-                  <h3>Heading Course</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vest sit amet, consec ibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
+                  <h3>"Meningkatkan akhlak peserta didik yang sesuai dengan Al-Quran dan Sunnah"</h3>
+				{{-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vest sit amet, consec ibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p> --}}
             </div> </div>
 			<div class="col-md-4">
 			<div class="textbox clour3">
-                  <h3>Heading Course</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vest sit amet, consec ibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
-            </div> </div>
-        </div>
-		<div class="row">
+                  <h3>"Menerapkan nilai-nilai keagamaan dalam pembelajaran"</h3>
+				{{-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vest sit amet, consec ibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p> --}}
+			</div> </div>
             <div class="col-md-4">
 			<div class="textbox clour4">
-                <h3>Heading Course</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vest sit amet, consec ibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
+                <h3>"Menerapkan pembelajaran aktif,inovatif,kreatif,efektif,dan menyenangkan"</h3>
+				{{-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vest sit amet, consec ibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p> --}}
             </div> </div>
+        </div>
+			<center>
             <div class="col-md-4">
 			<div class="textbox clour5">
-                  <h3>Heading Course</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vest sit amet, consec ibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
+                  <h3>"Meningkatkan kualitas pembelajaran dan pengembangan potensi anak secara optimal melalui kegiatan bermain sambil belajar"</h3>
+				{{-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vest sit amet, consec ibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p> --}}
             </div> </div>
 			<div class="col-md-4">
 			<div class="textbox clour6">
-                  <h3>Heading Course</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vest sit amet, consec ibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
-            </div> </div>
+                  <h3>"Menciptakan iklim dan lingkungan sekolah yang kondusif dengan melibatkan kerjasama dengan orang tua dan lingkungan sekitar"</h3>
+				{{-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vest sit amet, consec ibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p> --}}
+            </div> </div> </center>
         </div>
 </div>
 </section>
