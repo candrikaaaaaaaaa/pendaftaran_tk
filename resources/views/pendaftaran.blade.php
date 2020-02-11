@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com" />
-<!-- css -->
+
 <link href="{{ asset('assets/frontend/sekolah/sekolah/css/bootstrap.min.css')}}" rel="stylesheet" />
 <link href="{{ asset('assets/frontend/sekolah/sekolah/css/fancybox/jquery.fancybox.css')}}" rel="stylesheet">
 <link href="{{ asset('assets/frontend/sekolah/sekolah/css/jcarousel.css')}}" rel="stylesheet" />
@@ -32,7 +32,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    {{-- <a class="navbar-brand" href="index.html"><img src="{{ asset('assets/frontend/sekolah/sekolah/img/logo.png')}}" alt="logo"/></a> --}}
+                    {{-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a> --}}
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
@@ -50,129 +50,63 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h2 class="pageTitle">Gallery</h2>
+				<h2 class="pageTitle">Pendaftaran</h2>
 			</div>
 		</div>
 	</div>
 	</section>
+
 	<section id="content">
-	<div class="container">
+		<div class="container">
+
+<section class="course">
+
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="clearfix">
-				</div>
-				<div class="row no-gutter">
-					<section id="projects">
-					<div id="thumbs" class="Gallery">
-						<!-- Item Project and Filter Name -->
-						<div class="item-thumbs col-lg-3 col-md-4 col-sm-4 work design" data-id="id-0" data-type="web">
-					     <a class="work-box fancybox" data-fancybox-group="gallery" title=" " href="{{ asset('assets/frontend/sekolah/sekolah/img/works/1.jpg')}}">
-						   <div class="overlay">
-							  <div class="overlay-caption">
-								<p><span class="fa fa-search"></span></p>
-							  </div>
-							</div>
-						</a>
-						<img src="{{ asset('assets/frontend/sekolah/sekolah/img/works/1.jpg')}}" alt="">
-						</div>
-						<!-- End Item Project -->
-						<!-- Item Project and Filter Name -->
-						<div class="item-thumbs col-lg-3 col-md-4 col-sm-4 work design" data-id="id-1" data-type="icon">
-						<a class="work-box fancybox" data-fancybox-group="gallery" title=" " href="{{ asset('assets/frontend/sekolah/sekolah/img/works/2.jpg')}}">
-						 <div class="overlay">
-							  <div class="overlay-caption">
-								<p><span class="fa fa-search"></span></p>
-							  </div>
-							</div>
-						</a>
-						<img src="{{ asset('assets/frontend/sekolah/sekolah/img/works/2.jpg')}}" alt="">
-						</div>
-						<!-- End Item Project -->
-
-						<!-- Item Project and Filter Name -->
-						<div class="item-thumbs col-lg-3 col-md-4 col-sm-4 work photography" data-id="id-2" data-type="graphic">
-						<a class="work-box fancybox" data-fancybox-group="gallery" title=" " href="{{ asset('assets/frontend/sekolah/sekolah/img/works/3.jpg')}}">
-						 <div class="overlay">
-							  <div class="overlay-caption">
-								<p><span class="fa fa-search"></span></p>
-							  </div>
-							</div>
-						</a>
-						<img src="{{ asset('assets/frontend/sekolah/sekolah/img/works/3.jpg')}}" alt="">
-						</div>
-						<!-- End Item Project -->
-
-						<!-- Item Project and Filter Name -->
-						<div class="item-thumbs col-lg-3 col-md-4 col-sm-4 work design" data-id="id-0" data-type="web">
-						<a class="work-box fancybox" data-fancybox-group="gallery" title=" " href="{{ asset('assets/frontend/sekolah/sekolah/img/works/4.jpg')}}">
-						 <div class="overlay">
-							  <div class="overlay-caption">
-								<p><span class="fa fa-search"></span></p>
-							  </div>
-							</div>
-						</a>
-						<img src="{{ asset('assets/frontend/sekolah/sekolah/img/works/4.jpg')}}" alt="">
-						</div>
-						<!-- End Item Project -->
-
-						<!-- Item Project and Filter Name -->
-						<div class="item-thumbs col-lg-3 col-md-4 col-sm-4 work photography" data-id="id-4" data-type="web">
-						<a class="work-box fancybox" data-fancybox-group="gallery" title=" " href="{{ asset('assets/frontend/sekolah/sekolah/img/works/5.jpg')}}">
-						 <div class="overlay">
-							  <div class="overlay-caption">
-								<p><span class="fa fa-search"></span></p>
-							  </div>
-							</div>
-						</a>
-						<img src="{{ asset('assets/frontend/sekolah/sekolah/img/works/5.jpg')}}" alt="">
-						</div>
-						<!-- End Item Project -->
-
-						<!-- Item Project and Filter Name -->
-						<div class="item-thumbs col-lg-3 col-md-4 col-sm-4 work photography" data-id="id-5" data-type="icon">
-						<a class="work-box fancybox" data-fancybox-group="gallery" title=" " href="{{ asset('assets/frontend/sekolah/sekolah/img/works/6.jpg')}}">
-						 <div class="overlay">
-							  <div class="overlay-caption">
-								<p><span class="fa fa-search"></span></p>
-							  </div>
-							</div>
-						</a>
-						<img src="{{ asset('assets/frontend/sekolah/sekolah/img/works/6.jpg')}}" alt="">
-						</div>
-						<!-- End Item Project -->
-
-						<div class="item-thumbs col-lg-3 col-md-4 col-sm-4 work design" data-id="id-0" data-type="web">
-						<a class="work-box fancybox" data-fancybox-group="gallery" title=" " href="{{ asset('assets/frontend/sekolah/sekolah/img/works/7.jpg')}}">
-						 <div class="overlay">
-							  <div class="overlay-caption">
-								<p><span class="fa fa-search"></span></p>
-							  </div>
-							</div>
-						</a>
-						<img src="{{ asset('assets/frontend/sekolah/sekolah/img/works/7.jpg')}}" alt="">
-						</div>
-						<!-- End Item Project -->
-
-						<!-- Item Project and Filter Name -->
-						<div class="item-thumbs col-lg-3 col-md-4 col-sm-4 work design" data-id="id-0" data-type="graphic">
-						<a class="work-box fancybox" data-fancybox-group="gallery" title=" " href="{{ asset('assets/frontend/sekolah/sekolah/img/works/8.jpg')}}">
-						 <div class="overlay">
-							  <div class="overlay-caption">
-								<p><span class="fa fa-search"></span></p>
-							  </div>
-							</div>
-						</a>
-						<img src="{{ asset('assets/frontend/sekolah/sekolah/img/works/8.jpg')}}" alt="">
-						</div>
-						<!-- End Item Project -->
-
-					</div>
-					</section>
-				</div>
+				<div class=""><h3>Pendaftaran tk al-ikhlash</h3><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></div>
 			</div>
 		</div>
-	</div>
-	</section>
+<body>
+    <form action="proses-pendaftaran.php" method="post">
+    <center>
+    <table>
+        <tr><td> NO PENDAFTARAN </td>
+        <td><input type="text" name="no_pendaftaran" placeholder="NO PENDAFTARAN"></td></tr>
+
+        <tr><td> NAMA</td>
+        <td><input type="text" name="nama" placeholder="NAMA" /></td></tr>
+        <tr><td> ALAMAT</td>
+        <td><input type="text" name="alamat" placeholder="ALAMAT" /></td></tr>
+        <tr><td> TEMPAT LAHIR</td>
+        <td><input type="text" name="tempat_lahir" placeholder="TEMPAT LAHIR" /></td></tr>
+        <tr><td> TANGGAL LAHIR</td>
+        <td><input type="text" name="tgl_lahir"  placeholder="TANGGAL LAHIR" /></td></tr>
+
+        <tr><td> JENIS KELAMIN</td>
+        <td><input type="radio" name="jns_kelamin" value="L"> LAKI-LAKI <br>
+         <input type="radio" name="jns_kelamin" value="P"> PEREMPUAN </td></tr>
+        <tr><td> NAMA AYAH</td>
+        <td><input type="text" name="nama_ayah"  placeholder="NAMA AYAH" /></td></tr>
+        <tr><td> PEKERJAAN AYAH</td>
+        <td><input type="text" name="pekerjaan_ayah"  placeholder="PEKERJAAN AYAH" /></td></tr>
+        <tr><td> NAMA IBU</td>
+        <td><input type="text" name="nama_ibu" placeholder="NAMA IBU" /></td></tr>
+        <tr><td> PEKERJAAAN IBU</td>
+        <td><input type="text" name="pekerjaan_ibu" placeholder="PEKERJAAN IBU" /></td></tr>
+        <tr><td> PENGHASILAN ORANG TUA</td>
+        <td><input type="text" name="penghasilan" placeholder="PENGHASILAN ORANG TUA" /></td></tr>
+        <tr><td> FOTO </td>
+        <td><input type="file" name="image" />
+        <tr> <td></td>
+
+        <td><input type="submit" value="simpan"></input><input type="reset" value="kembali"></input></td></tr>
+        </form>
+    </table>
+    </center>
+
+</body>
+    </div>
+    </section>
 	<footer>
 	<div class="container">
 		<div class="row">

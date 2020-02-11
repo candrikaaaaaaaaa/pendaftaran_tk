@@ -39,7 +39,7 @@
                         <li class="active"><a href="index.html">Home</a></li>
 						<li><a href="./profil">Profile</a></li>
                         <li><a href="./galeri">Gallery</a></li>
-                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc5aD1N9YymVaZb5LOCapXC64MUiwr3tYspxMWMsaqrdKXPGA/viewform?usp=sf_link">Pendaftaran</a></li>
+                        <li><a href="./pendaftaran">Pendaftaran</a></li>
                         {{-- <li><a href="contact.html">Contact</a></li> --}}
                     </ul>
                 </div>

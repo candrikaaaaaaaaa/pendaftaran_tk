@@ -19,8 +19,8 @@ Route::get('/index', function () {
     return view('index');
 });
 
-Route::get('/admin', function () {
-    return view('admin');
+Route::get('/pendaftaran', function () {
+    return view('pendaftaran');
 });
 
 Route::get('/profil', function () {
@@ -31,6 +31,14 @@ Route::get('/galeri', function () {
     return view('galeri');
 });
 
+Route::get('/admin', function () {
+    return view('layouts.admin');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['prefix' => 'backend', 'middleware' => ['auth']], function () {
+    Route::resource('/pendaftaran', 'PendaftaranController');
+});

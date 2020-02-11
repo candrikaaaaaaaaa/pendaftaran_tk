@@ -7,11 +7,11 @@
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com" />
 <!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="css/style.css" rel="stylesheet" />
+<link href="{{ asset('assets/frontend/sekolah/sekolah/css/bootstrap.min.css')}}" rel="stylesheet" />
+<link href="{{ asset('assets/frontend/sekolah/sekolah/css/fancybox/jquery.fancybox.css')}}" rel="stylesheet">
+<link href="{{ asset('assets/frontend/sekolah/sekolah/css/jcarousel.css')}}" rel="stylesheet" />
+<link href="{{ asset('assets/frontend/sekolah/sekolah/css/flexslider.css')}}" rel="stylesheet" />
+<link href="{{ asset('assets/frontend/sekolah/sekolah/css/style.css')}}" rel="stylesheet" />
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -32,16 +32,15 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                  <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
+                  {{-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a> --}}
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-						<li class="active"><a href="about.html">About Us</a></li>
-						<li><a href="courses.html">Courses</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li class="active"><a href="index.html">Home</a></li>
+						<li><a href="./profil">Profile</a></li>
+                        <li><a href="./galeri">Gallery</a></li>
+                        <li><a href="./pendaftaran">Pendaftaran</a></li>
+                        {{-- <li><a href="contact.html">Contact</a></li> --}}
                     </ul>
                 </div>
             </div>
