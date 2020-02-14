@@ -36,7 +36,7 @@
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="./">Home</a></li>
 						<li><a href="./profil">Profile</a></li>
                         <li><a href="./galeri">Gallery</a></li>
                         <li><a href="./pendaftaran">Pendaftaran</a></li>
@@ -53,27 +53,27 @@
         <div id="main-slider" class="flexslider">
             <ul class="slides">
               <li>
-                <img src="{{ asset('assets/frontend/sekolah/sekolah/img/slides/satu.jpg')}}" alt="" />
+                <img src="{{ asset('assets/frontend/sekolah/sekolah/img/slides/4.jpg')}}" alt="" />
                 <div class="flex-caption">
-                   <div class="item_introtext">
-					<strong>Your Kids Buddy </strong>
-					<p>The best educational template</p> </div>
+                   {{-- <div class="item_introtext"> --}}
+					{{-- <strong>Your Kids Buddy </strong>
+					<p>The best educational template</p> </div> --}}
                 </div>
               </li>
               <li>
-                <img src="{{ asset('assets/frontend/sekolah/sekolah/img/slides/i1.jpg')}}" alt="" />
+                <img src="{{ asset('assets/frontend/sekolah/sekolah/img/slides/5.jpg')}}" alt="" />
                 <div class="flex-caption">
-                     <div class="item_introtext">
-					<strong>All-round Growth</strong>
-					<p>Get all courses with on-line content</p> </div>
+                     {{-- <div class="item_introtext"> --}}
+					{{-- <strong>All-round Growth</strong>
+					<p>Get all courses with on-line content</p> </div> --}}
                 </div>
               </li>
-              <li>
-                {{-- <img src="{{ asset('assets/frontend/sekolah/sekolah/img/slides/gal1.jpg')}}" alt="" /> --}}
+            <li>
+                <img src="{{ asset('assets/frontend/sekolah/sekolah/img/slides/6.jpg')}}" alt="" />
                 <div class="flex-caption">
-                     <div class="item_introtext">
-					<strong>Balanced Schooling</strong>
-					<p>Awesome Template get it know</p> </div>
+                     {{-- <div class="item_introtext"> --}}
+					{{-- <strong>All-round Growth</strong>
+					<p>Get all courses with on-line content</p> </div> --}}
                 </div>
               </li>
             </ul>
@@ -119,7 +119,7 @@ SmartKids...Your Kids Buddy</h1><span class="clear spacer_responsive_hide_mobile
 
 	</div>
 	</section>
-	<div class="testimonial-area">
+	{{-- <div class="testimonial-area">
     <div class="testimonial-solid">
         <div class="container">
             <div class="testi-icon-area">
@@ -127,7 +127,7 @@ SmartKids...Your Kids Buddy</h1><span class="clear spacer_responsive_hide_mobile
                     <i class="fa fa-microphone"></i>
                 </div>
             </div>
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div id="carousel-example-generic" class="" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="">
                         <a href="#"></a>
@@ -135,12 +135,12 @@ SmartKids...Your Kids Buddy</h1><span class="clear spacer_responsive_hide_mobile
                     <li data-target="#carousel-example-generic" data-slide-to="1" class="">
                         <a href="#"></a>
                     </li>
-                    {{-- <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
                         <a href="#"></a>
                     </li>
                     <li data-target="#carousel-example-generic" data-slide-to="3" class="">
                         <a href="#"></a>
-                    </li> --}}
+                    </li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="item">
@@ -171,7 +171,7 @@ SmartKids...Your Kids Buddy</h1><span class="clear spacer_responsive_hide_mobile
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <section class="courses">
 <div class="container">
 
@@ -228,9 +228,8 @@ SmartKids...Your Kids Buddy</h1><span class="clear spacer_responsive_hide_mobile
 				<div class="widget">
 					<h5 class="widgetheading">Our Contact</h5>
 					<address>
-					<strong>Smart KidsInc</strong><br>
-					JC Main Road, Near Silnile tower<br>
-					 Pin-21542 NewYork US.</address>
+					<strong>TK ISTIQAMAH</strong><br>
+					Jl. Taman Citarum Bandung</address>
 					<p>
 						<i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
 						<i class="icon-envelope-alt"></i> email@domainname.com

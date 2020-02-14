@@ -36,7 +36,7 @@
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="./">Home</a></li>
 						<li><a href="./profil">Profile</a></li>
                         <li><a href="./galeri">Gallery</a></li>
                         <li><a href="./pendaftaran">Pendaftaran</a></li>
@@ -63,7 +63,7 @@
 
 		<div class="row">
 			<div class="col-lg-12">
-				<div class=""><h3>Pendaftaran tk al-ikhlash</h3><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></div>
+				<div class=""><h3>Pendaftaran tk al-istiqamah</h3><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></div>
 			</div>
 		</div>
 <body>
@@ -80,7 +80,7 @@
         <tr><td> TEMPAT LAHIR</td>
         <td><input type="text" name="tempat_lahir" placeholder="TEMPAT LAHIR" /></td></tr>
         <tr><td> TANGGAL LAHIR</td>
-        <td><input type="text" name="tgl_lahir"  placeholder="TANGGAL LAHIR" /></td></tr>
+        <td><input type="date" name="tgl_lahir"  placeholder="TANGGAL LAHIR" /></td></tr>
 
         <tr><td> JENIS KELAMIN</td>
         <td><input type="radio" name="jns_kelamin" value="L"> LAKI-LAKI <br>

@@ -36,7 +36,7 @@
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="./">Home</a></li>
 						<li><a href="./profil">Profile</a></li>
                         <li><a href="./galeri">Gallery</a></li>
                         <li><a href="./pendaftaran">Pendaftaran</a></li>
@@ -50,7 +50,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h2 class="pageTitle">About Us</h2>
+				<h2 class="pageTitle">Profil Sekolah</h2>
 			</div>
 		</div>
 	</div>
@@ -63,15 +63,20 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="about-logo">
-									<h3>We are awesome <span class="color">TEAM</span></h3>
-									<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-                                    	<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-								</div>
+									{{-- <h3>We are awesome <span class="color">TEAM</span></h3> --}}
+									<p>TK Istiqamah adalah suatu lembaga pendidikan prasekolah
+                                        berdiri pada tahun 1986 dikelola oleh Yayasan Istiqamah Bandung
+                                        yang berusaha menselaraskan dengan perubahan yang terjadi
+                                        dengan senantiasa berorientasi pada pola pendidikan yang rabbani,
+                                        yaitu pola pendidikan yang sesuai dengan ajaran Allah SWT dan
+                                        Rasulullah. Pola ini diharapkan dapat melahirkan generasi penerus
+                                        yang memiliki akal yang cerdas, akhlak yang mulia,
+                                        sehingga dapat berkompetisi di zaman yang penuh tantangan.</p>								</div>
 							</div>
 						</div>
 						<br>
 
-						 <div class="row">
+						 {{-- <div class="row">
 							<div class="col-md-6">
 								<img src="img/section-image-1.png" alt="">
 								<div class="space"></div>
@@ -87,11 +92,11 @@
 									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Quo issimos molest quibusdam temporibus</li>
 								</ul>
 							</div>
-						</div>
+						</div> --}}
 						<br/>
 						<hr>
 						<br>
-						<div class="row">
+						{{-- <div class="row">
 							<div class="col-md-4">
 								<!-- Heading and para -->
 								<div class="block-heading-two">
@@ -200,7 +205,7 @@
 								</div>
 							</div>
 
-						</div>
+						</div> --}}
 
 
 						<hr>
@@ -208,14 +213,14 @@
 						<!-- Our Team starts -->
 
 						<!-- Heading -->
-						<div class="block-heading-six">
+						{{-- <div class="block-heading-six">
 							<h3 class="bg-color">Our Team</h3>
 						</div>
-						<br>
+						<br> --}}
 
 						<!-- Our team starts -->
 
-						<div class="team-six">
+						{{-- <div class="team-six">
 							<div class="row">
 								<div class="col-md-3 col-sm-6">
 									<!-- Team Member -->
@@ -258,7 +263,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> --}}
 
 						<!-- Our team ends -->
 
