@@ -229,10 +229,10 @@ SmartKids...Your Kids Buddy</h1><span class="clear spacer_responsive_hide_mobile
 					<h5 class="widgetheading">Our Contact</h5>
 					<address>
 					<strong>TK ISTIQAMAH</strong><br>
-					Jl. Taman Citarum Bandung</address>
+					Jl. Taman Citarum, Rancamanyar Bandung</address>
 					<p>
-						<i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
-						<i class="icon-envelope-alt"></i> email@domainname.com
+						<i class="icon-phone"></i> 0895344583308 <br>
+						<i class="icon-envelope-alt"></i> candrikadwi152@gmail.com
 					</p>
 				</div>
 			</div>

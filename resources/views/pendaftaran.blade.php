@@ -114,12 +114,11 @@
 				<div class="widget">
 					<h5 class="widgetheading">Our Contact</h5>
 					<address>
-					<strong>Smart KidsInc</strong><br>
-					JC Main Road, Near Silnile tower<br>
-					 Pin-21542 NewYork US.</address>
+					<strong>TK ISTIQOMAH</strong><br>
+					Jl. Taman Citarum, Rancamanyar Bandung</address>
 					<p>
-						<i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
-						<i class="icon-envelope-alt"></i> email@domainname.com
+						<i class="icon-phone"></i> 0895344583308 <br>
+						<i class="icon-envelope-alt"></i> candrikadwi152@gmail.com
 					</p>
 				</div>
 			</div>
