@@ -67,7 +67,7 @@
 			</div>
 		</div>
 <body>
-    <form action="proses-pendaftaran.php" method="post">
+<form action="{{ route('pendaftaran.store') }}" method="post">
     <center>
     <table>
         <tr><td> NO PENDAFTARAN </td>
@@ -93,8 +93,7 @@
         <td><input type="text" name="nama_ibu" placeholder="NAMA IBU" /></td></tr>
         <tr><td> PEKERJAAAN IBU</td>
         <td><input type="text" name="pekerjaan_ibu" placeholder="PEKERJAAN IBU" /></td></tr>
-        <tr><td> PENGHASILAN ORANG TUA</td>
-        <td><input type="text" name="penghasilan" placeholder="PENGHASILAN ORANG TUA" /></td></tr>
+        
         <tr><td> FOTO </td>
         <td><input type="file" name="image" />
         <tr> <td></td>

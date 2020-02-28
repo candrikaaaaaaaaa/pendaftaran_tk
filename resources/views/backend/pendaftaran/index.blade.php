@@ -310,6 +310,41 @@
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper">
             <div id="page-inner">
+            <form action="{{ route('pendaftaran.store') }}" method="post">
+    <center>
+    <table>
+        <tr><td> NO PENDAFTARAN </td>
+        <td><input type="text" name="no_pendaftaran" placeholder="NO PENDAFTARAN"></td></tr>
+
+        <tr><td> NAMA</td>
+        <td><input type="text" name="nama" placeholder="NAMA" /></td></tr>
+        <tr><td> ALAMAT</td>
+        <td><input type="text" name="alamat" placeholder="ALAMAT" /></td></tr>
+        <tr><td> TEMPAT LAHIR</td>
+        <td><input type="text" name="tempat_lahir" placeholder="TEMPAT LAHIR" /></td></tr>
+        <tr><td> TANGGAL LAHIR</td>
+        <td><input type="date" name="tgl_lahir"  placeholder="TANGGAL LAHIR" /></td></tr>
+
+        <tr><td> JENIS KELAMIN</td>
+        <td><input type="radio" name="jns_kelamin" value="L"> LAKI-LAKI <br>
+         <input type="radio" name="jns_kelamin" value="P"> PEREMPUAN </td></tr>
+        <tr><td> NAMA AYAH</td>
+        <td><input type="text" name="nama_ayah"  placeholder="NAMA AYAH" /></td></tr>
+        <tr><td> PEKERJAAN AYAH</td>
+        <td><input type="text" name="pekerjaan_ayah"  placeholder="PEKERJAAN AYAH" /></td></tr>
+        <tr><td> NAMA IBU</td>
+        <td><input type="text" name="nama_ibu" placeholder="NAMA IBU" /></td></tr>
+        <tr><td> PEKERJAAAN IBU</td>
+        <td><input type="text" name="pekerjaan_ibu" placeholder="PEKERJAAN IBU" /></td></tr>
+        
+        <tr><td> FOTO </td>
+        <td><input type="file" name="image" />
+        <tr> <td></td>
+
+        <td><input type="submit" value="simpan"></input><input type="reset" value="kembali"></input></td></tr>
+        </form>
+    </table>
+    </center>
 
 
                 <div class="row">
@@ -318,14 +353,16 @@
                             Dashboard <small>Summary of your App</small>
                         </h1>
                     </div>
+                    
                 </div>
+                
                 <!-- /. ROW  -->
 
 
                 <div class="row">
 
 
-
+    
                 </div>
                 <!-- /. ROW  -->
 
